@@ -15,4 +15,9 @@ public class PixelsTest {
         assertTrue("Pixel " + firstPixel.toString() + " was unexpectedly found to not contain the keyword 'KEYWORD'",
                 firstPixel.containsKeyword("KEYWORD"));
     }
+
+    @Test
+    public void averageMoodInRange() {
+        
+    }
 }
